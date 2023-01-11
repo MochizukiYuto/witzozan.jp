@@ -10,6 +10,13 @@ main {
   margin-right: 70px;
   margin-left: 70px;
 }
+
+.language {
+  text-align: right;
+  padding-top: 80px;
+  padding-right: 180px;
+}
+
 /*ボタンクリック前*/
 .nav_toggle {
   position: fixed;
