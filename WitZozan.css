@@ -164,6 +164,13 @@ main section {
   padding-bottom: 20px;
 }
 
+.menu {
+  border: 5px dotted burlywood;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .logo1 {
   float: left;
   z-index: 900;
