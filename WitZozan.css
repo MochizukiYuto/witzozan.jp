@@ -94,6 +94,13 @@ main {
   font-size: 6em;
 }
 
+.nav_menu_li {
+  font-size: 0.5em;
+}
+
+h2 {
+  font-size: 0.7em;
+}
 
 h1 {
   text-align: center;
