@@ -11,17 +11,33 @@
 
     gtag('config', 'G-RMTFK907T3');
   </script>
+
   <meta charset="utf-8">
   <title>長野県立大学象山寮祭WitZozan</title>
   <link rel="stylesheet" href="WitZozan.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <link rel="icon" href="logo.jpg">
   <link rel="apple-touch-icon" href="logo.jpg">
+
+  <!--ネットからコピペしたスライドショー部分-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slider').bxSlider({
+        auto: true,
+        pause: 5000,
+      });
+    });
+  </script>
+
 </head>
 
 <body>
-  <section class="language"><span><a href="https://mochizukiyuto.github.io/witzozan.en/">English</a></span>
-    <span><a href="https://mochizukiyuto.github.io/witzozan.cn/">中文</a></span>
+  <section class="language">
+    <a href="https://mochizukiyuto.github.io/witzozan.en/"><span class="direct">>></span>English</a>
+    <span><a href="https://mochizukiyuto.github.io/witzozan.cn/"><span class="direct">>></span>中文</a></span>
   </section>
   <section class="humberger">
     <span class="nav_toggle">
@@ -32,12 +48,12 @@
     <nav class="nav">
       <h2>WitZozan</h2>
       <ul class="nav_menu_ul">
-        <li class="nav_menu_li"><a href="#detail">WitZozanとは</a></li>
-        <li class="nav_menu_li"><a href="#event name">WitZozanの意味</a></li>
-        <li class="nav_menu_li"><a href="#logodetail">ロゴの意味</a></li>
-        <li class="nav_menu_li"><a href="#shop">出展者様紹介</a></li>
-        <li class="nav_menu_li"><a href="#blog">ミニブログ</a></li>
-        <li class="nav_menu_li"><a href="#recruitment">出店者募集</a></li>
+        <li class="nav_menu_li"><a href="#detail">WitZozanとは ▸</a></li>
+        <li class="nav_menu_li"><a href="#event name">WitZozanの意味 ▸</a></li>
+        <li class="nav_menu_li"><a href="#logodetail">ロゴの意味 ▸</a></li>
+        <li class="nav_menu_li"><a href="#shop">出展者様紹介 ▸</a></li>
+        <li class="nav_menu_li"><a href="#blog">ミニブログ ▸</a></li>
+        <li class="nav_menu_li"><a href="#recruitment">出店者募集 ▸</a></li>
       </ul>
     </nav>
   </section>
@@ -50,9 +66,9 @@
     <section class="detail"><a name="detail"></a>
       <h1><span class="headline">WitZozanとは</span></h1>
       <ul>
-        <li><img alt="symbol" src="symbol.jpg" width="30em"> 時</li>2023年2月4日
-        <li><img alt="symbol" src="symbol.jpg" width="30em"> 場所</li>セントラルスクゥエア、R-DEPOT
-        <li><img alt="symbol" src="symbol.jpg" width="30em"> 概要</li>
+        <li><img alt="symbol" src="symbol.jpg" width="40em"><span class="information">時</span> </li>2023年2月4日
+        <li><img alt="symbol" src="symbol.jpg" width="40em"><span class="information">場所</span> </li>セントラルスクゥエア、R-DEPOT
+        <li><img alt="symbol" src="symbol.jpg" width="40em" z-index="9999"><span class="information">概要</span> </li>
         長野県立大学象山寮祭:WitZozan<br>
         セントラルスクエアでは温かい食べ物や飲み物が集まるので、冷え切った体を温めつつ、ステージではバンドが会場を盛り上げてくれます。<br>
         R-DEPOTでは珍しい古道具が集まるので、避寒地としてぜひお立ち寄りください。<br>
@@ -82,12 +98,16 @@
           <span class="shoptitledetail">幸せの黄金鯛焼き　長野店</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop1-1.jpg" alt="" width="100%">
-        <img src="shop1-2.jpg" alt="" width="100%">
-        <img src="shop1-3.jpg" alt="" width="100%">
-        <img src="shop1-4.jpg" alt="" width="100%">
-        <img src="shop1-5.jpg" alt="" width="100%">
-        <img src="shop1-6.jpg" alt="" width="100%">
+        
+        <div class="slider">
+          <img src="shop1-1.png" width="" height="" alt="">
+          <img src="shop1-2.png" width="" height="" alt="">
+          <img src="shop1-3.png" width="" height="" alt="">
+          <img src="shop1-4.png" width="" height="" alt="">
+          <img src="shop1-5.png" width="" height="" alt="">
+          <img src="shop1-6.png" width="" height="" alt="">
+        </div>
+
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           ・クロワッサン鯛焼き（粒あん,カスタード）<br>
@@ -106,8 +126,10 @@
           <span class="shoptitledetail">ホットサンド スワンプ</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop2-1.jpg" alt="" width="100%">
-        <img src="shop2-2.jpg" alt="" width="100%">
+        <div class="slider">
+          <img src="shop2-1.png" width="" height="" alt="">
+          <img src="shop2-2.png" width="" height="" alt="">
+          </div>
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           タンドリーチキンサンド 800円<br>
@@ -125,8 +147,10 @@
           <span class="shoptitledetail">ババカレー</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop3-1.jpg" alt="" width="100%">
-        <img src="shop3-2.jpg" alt="" width="100%">
+        <div class="slider">
+          <img src="shop3-1.png" width="" height="" alt="">
+          <img src="shop3-2.png" width="" height="" alt="">
+          </div>
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           カレー2種類（それぞれ1000円）<br>
@@ -146,10 +170,13 @@
           <span class="shoptitledetail">stellina-pitta</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop4-1.jpg" alt="" width="100%">
-        <img src="shop4-2.jpg" alt="" width="100%">
-        <img src="shop4-3.jpg" alt="" width="100%">
-        <img src="shop4-4.jpg" alt="" width="100%">
+        <div class="slider">
+          <img src="shop4-1.png" width="" height="" alt="">
+          <img src="shop4-2.png" width="" height="" alt="">
+          <img src="shop4-3.png" width="" height="" alt="">
+          <img src="shop4-4.png" width="" height="" alt="">
+          
+          </div>
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           ナポリピッツァと生ハム 1000円〜2000円<br>
@@ -165,9 +192,12 @@
           <span class="shoptitledetail">Happy Pocket</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop5-1.jpg" alt="" width="100%">
-        <img src="shop5-2.jpg" alt="" width="100%">
-        <img src="shop5-3.jpg" alt="" width="100%">
+        <div class="slider">
+          <img src="shop5-1.png" width="" height="" alt="">
+          <img src="shop5-2.png" width="" height="" alt="">
+          <img src="shop5-3.png" width="" height="" alt="">
+          
+          </div>
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           全粒粉クレープ 500~800円<br>
@@ -187,10 +217,12 @@
           <span class="shoptitledetail">カフェグレ猫</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop6-1.jpg" alt="" width="100%">
-        <img src="shop6-2.jpg" alt="" width="100%">
-        <img src="shop6-3.jpg" alt="" width="100%">
-        <p class="menu">
+        <div class="slider">
+          <img src="shop6-1.png" width="" height="" alt="">
+          <img src="shop6-2.png" width="" height="" alt="">
+          <img src="shop6-3.png" width="" height="" alt="">
+        </div>
+           <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
           　自家焙煎珈琲<br>
           　各牛乳メニュー<br>
@@ -223,11 +255,13 @@
           <span class="shoptitledetail">mountain camel</span>
           <img alt="symbol" src="symbol.jpg" width="60px" class="logo2">
         </div><br>
-        <img src="shop7-1.jpg" alt="" width="100%">
-        <img src="shop7-2.jpg" alt="" width="100%">
+        <div class="slider">
+          <img src="shop7-1.png" width="" height="" alt="">
+          <img src="shop7-2.png" width="" height="" alt="">
+         </div>
         <p class="menu">
           <img alt="symbol" src="symbol.jpg" width="30em">メニュー<br>
-          ハンバーガー  1000円
+          ハンバーガー 1000円
         </p>
         <p class="introduction">
           <img alt="symbol" src="symbol.jpg" width="30em">お店情報<br>
